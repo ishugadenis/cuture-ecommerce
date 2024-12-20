@@ -1,0 +1,96 @@
+.login{
+    padding-left: 0;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    width: 100%;
+}
+
+.login img{
+    height: 100vh;
+}
+
+.login-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+
+}
+
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.208);
+    outline: none;
+    background: transparent;
+  }
+  .login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    font-size: 16px;
+    padding: 10px 0;
+    color: rgba(0, 0, 0, 0.618);
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:not(:placeholder-shown) ~ label {
+    top: -20px;
+    left: 0;
+    color: var(--alert-color);
+    font-size: 12px;
+  }
+  
+  .login-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: var(--alert-color);
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+  }
+
+.login .red-button{
+    border: none;
+}
+.login .action-button{
+    background-color: transparent;
+}
+.login .redirect{
+    justify-self: center;
+    align-self: center;
+    margin-top: 20px;
+}
+.login .login-btn{
+    cursor: pointer;
+    color: var(--alert-color);
+    text-decoration: underline;
+}
+.login i{
+    align-self: center;
+    margin-top: 15px;
+    color: var(--alert-color);
+    cursor: pointer;
+}

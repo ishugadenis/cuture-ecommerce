@@ -1,0 +1,42 @@
+.hero-banner{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.categories{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+ 
+}
+
+.categories li{
+    
+    margin-bottom: 15px;
+}
+
+.verticle-line{
+    width: 1px;
+    background-color: var(--background-gray);
+}
+
+.hero-banner-voucher{
+    background-color: black;
+    width: 100%;
+
+}
+.product-list{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.flash-sales{
+
+}
+
+.deliverables{
+    
+}
+

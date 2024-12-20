@@ -1,0 +1,59 @@
+.account{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.account-owner{
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+.account-box{
+    display: flex;
+    gap: 30px;
+}
+
+.account-links{
+    width: 20%;
+}
+
+.account-form{
+    width: 100%;
+}
+.account-form input{
+    outline: none;
+    border: none;
+    background-color: var(--background-gray);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.account-links-link{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.account-links-link i{
+    padding-left: 20px;
+}
+
+.name-input{
+    display: flex;
+    gap: 30px;
+ 
+}
+
+.input-box{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.account-form-btns{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+

@@ -1,0 +1,26 @@
+.section-header{
+    margin-bottom: 30px;
+}
+ .title{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.title p{
+    color: var(--alert-color);
+    font-weight: 800;
+    
+}
+
+.title-container{
+    width: 20px;
+    height: 40px;
+    background-color: var(--alert-color);
+    border-radius: 5px;
+}
+
+.subtitle h5{
+    color: var(--alert-color);
+}

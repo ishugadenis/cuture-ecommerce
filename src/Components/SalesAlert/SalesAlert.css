@@ -1,0 +1,15 @@
+.sales-alert{
+    background-color: var(--primary-color);
+    width: 100%;
+    padding: 10px 0;
+    color: var(--secondary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sales-alert p .underline{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
